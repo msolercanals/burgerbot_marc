@@ -1,0 +1,10 @@
+.env
+poetry.lock
+chats.json
+chats_tmp.json
+test.py
+__pycache__
+auslander.py
+burgerbot_dev.py
+log.txt
+.vscode
