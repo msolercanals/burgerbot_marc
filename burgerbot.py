@@ -71,7 +71,7 @@ class User:
 
 class Bot:
     def __init__(self) -> None:
-        self.updater = Updater(os.environ["6045720160:AAGJzM-feoLKprv18TRemFLiccyEamaAs_Y"])
+        self.updater = Updater("6045720160:AAGJzM-feoLKprv18TRemFLiccyEamaAs_Y")
         self.__init_chats()
         self.users = self.__get_chats()
         self.services = self.__get_uq_services()
