@@ -10,7 +10,7 @@ from dataclasses import dataclass, asdict
 from typing import List
 from datetime import datetime
 
-from telegram import ParseMode
+from telegram.constants import ParseMode
 from telegram.ext import CommandHandler, Updater
 from telegram.ext.callbackcontext import CallbackContext
 from telegram.update import Update
