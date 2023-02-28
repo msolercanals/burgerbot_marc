@@ -12,7 +12,7 @@ from datetime import datetime
 
 from telegram.constants import ParseMode
 from telegram.ext import CommandHandler, Updater
-from telegram.ext.callbackcontext import CallbackContext
+from telegram.ext.CallbackContext import CallbackContext
 from telegram.update import Update
 
 from parser import Parser, Slot, build_url
