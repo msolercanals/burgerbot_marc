@@ -56,6 +56,7 @@ class Parser:
                 return []
             soup = BeautifulSoup(page.content, "html.parser")
             slots = soup.find_all("td", class_="buchbar")
+            print(slots)
             is_valid = soup.find_all("td", class_="nichtbuchbar")
             if len(is_valid) > 0:
                 logging.info("page is valid")
